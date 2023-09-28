@@ -46,6 +46,38 @@
 
     // 👉 CHALLENGE 1 - Integers
     class Integers {
+      constructor(...nums) {
+        this.ints = [...nums]
+       
+}
+      getAll() {
+        return this.ints
+      }
+      getEvens() {
+      
+        return this.ints.filter(int => int % 2 == 0)
+      }
+      getNegatives(...nums) {
+       return this.ints.filter(int => int < 0)
+        }
+        
+      
+       getAllSquared(...args) {
+        return
+      } 
+       pop() {
+        return
+      } 
+      push() {
+        return
+      }
+      getEveryNth() {
+        return
+      }
+       getAllReversed() {
+        return
+      }
+      
       // 🧠 Constructor takes **any** number of arguments, which are integers
       // 🧠 Instances have an `ints` property which is an array holding the integers above in the same order
       // 🧠 Implement a `getAll` method which returns the data held in the `ints` property
@@ -63,6 +95,7 @@
 
     // 👉 CHALLENGE 2 NerfGun
     class NerfGun {
+      
       // 🧠 Constructor takes one argument: the total number of projectiles supported by the instance
       // 🧠 New instances initialize fully loaded and with the safety on
       // 🧠 Instances have a `shoot` method that takes no arguments:
